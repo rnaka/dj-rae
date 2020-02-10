@@ -1,6 +1,21 @@
 # dj-rae
 A chrome extension to allow people to make a wishlist of online products 
 
-<u>Completed</u>
+Completed
+======
 
-<u>Pending</u>
+
+
+Pending
+======
+Jiayu
+------
+
+
+Derick
+------
+
+
+Raena
+------
+
