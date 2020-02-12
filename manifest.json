@@ -1,0 +1,15 @@
+{
+  "manifest_version": 2,
+
+  "name": "Crave",
+  "description": "This extension will create a wishlist of items from online stores",
+  "version": "1.0",
+
+  "browser_action": {
+    "default_icon": "icon.png",
+    "default_popup": "popup.html"
+  },
+  "permissions": [
+    "activeTab"
+  ]
+}
