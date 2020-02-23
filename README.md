@@ -16,7 +16,8 @@ Jiayu
 
 Derick
 ------
-
+Styling of the page
+Browser Actions
 
 Raena
 ------
