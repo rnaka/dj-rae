@@ -23,7 +23,7 @@ Pending
 
 Jiayu
 ------
-
+Implement logic when a user clicks the page
 
 Derick
 ------
