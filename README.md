@@ -25,17 +25,11 @@ Jiayu
 ------
 
 
-Completed: 
-
 Derick
 ------
 Styling of the page
 Browser Actions
 
-Completed: 
-
 Raena
 ------
 Sign-in screen
-
-Completed: 1, 2
