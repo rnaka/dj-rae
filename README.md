@@ -1,7 +1,7 @@
 # Crave
 A chrome extension to allow people to make a wishlist of online products 
 
-**Updated 03/08/2020
+# Updated 03/08/2020
 
 Progress
 ======
@@ -56,7 +56,8 @@ Verifying app security
 Next:
 
 
-**Updated 02/23/2020
+# Updated 02/23/2020
+
 Completed
 ======
 
