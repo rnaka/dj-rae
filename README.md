@@ -40,6 +40,7 @@ Next:
 Derick
 ------
 Completed: 
+Styling of the extension
 
 Current:
 
