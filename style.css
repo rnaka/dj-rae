@@ -1,0 +1,12 @@
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  justify-content: space-between;
+  align-content: space-around;
+}
+body {
+  background-color: orange;
+  width:200px;
+  height:400px;
+}

@@ -1,5 +1,5 @@
 # Crave
-A chrome extension to allow people to make a wishlist of online products 
+A chrome extension to allow people to make a wishlist of online products
 
 # Updated 03/08/2020
 
@@ -31,7 +31,7 @@ Roles and Responsibilities
 
 Jiayu
 ------
-Completed: 
+Completed:
 
 Current:
 
@@ -39,7 +39,7 @@ Next:
 
 Derick
 ------
-Completed: 
+Completed:
 
 Current:
 
@@ -47,8 +47,8 @@ Next:
 
 Raena
 ------
-Completed: 
-OAuth Setup to Login 
+Completed:
+OAuth Setup to Login
 
 Current:
 Verifying app security
@@ -71,7 +71,7 @@ Derick
 
 Raena
 ------
-1. Initial setup of the extension 
+1. Initial setup of the extension
 2. Crave Logo
 
 
@@ -80,7 +80,7 @@ Pending
 
 Jiayu
 ------
-Implement logic when a user clicks the page
+Implement logic when a user clicks the page, user interoperability
 
 Derick
 ------
