@@ -82,6 +82,9 @@ Pending
 Jiayu
 ------
 Implement logic when a user clicks the page
+Connect selected store API's to detect products on page and add to wishlist
+Browser Actions
+General Design 
 
 Derick
 ------
