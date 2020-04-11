@@ -17,7 +17,7 @@
 html, body {
     margin: 0;
     padding: 0;
-    min-height: 100%;
+    min-height: 400px;
 }
 
 .nav ul {
@@ -39,11 +39,11 @@ html, body {
     text-align: center;
     font-size: 1.1em;
     font-weight: lighter;
-    border-bottom: 1px solid rgba(255, 255, 255, .3)
+    border-bottom: 1px solid rgba(255, 255, 255, .3);
 }
 
 .main-nav li {
-    padding: 0 5%;
+    padding: .2pc;
 }
 
 .nav a:hover {
@@ -131,7 +131,7 @@ html, body {
     margin: .5em 15% 2em 15%;
     color: white;
     border: 2px solid #2D9CDB;
-    background-color: rgba(255, 255, 255, .1);
+    background-color: lightgrey;
     border-radius: 0;
     font-size: 1.5em;
     font-weight: lighter;
@@ -182,4 +182,18 @@ html, body {
 
 .retailer-btn {
     max-width: 19%;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  justify-content: space-between;
+  align-content: space-around;
+}
+
+
+body {
+  width:300px;
+  height:400px;
 }
