@@ -1,13 +1,15 @@
 # Crave
 A chrome extension to allow people to make a wishlist of online products 
 
-# Updated 04/10/2020
+# Updated 04/12/2020
 
 Progress
 ======
 {What is new in the project since the last README submitted)
 1. The Functionality of all the different button
 2. The About Page Finished
+3. Showing the Wishlist
+4. Adding Items Page
 
 Link
 ======
@@ -15,9 +17,7 @@ https://github.com/rnaka/dj-rae/
 
 Pending
 ======
-1. Showing the Wishlist on the application
-2. Adding Items to the Wishlist
-
+1. Adding Items to the Wishlist
 
 Roles and Responsibilities
 ======
@@ -30,26 +30,31 @@ Functionality of the different buttons
 Current:
 
 Next:
+Final Report
 
 Derick
 ------
 Completed: 
 Further Styling of the extension
+Fuzz Testing
 
 Current:
 
 Next:
+Final Report
 
 Raena
 ------
 Completed: 
 Combined Styling and Functionality
 About Page
+Fuzz Testing
 
 Current:
 
 
 Next:
+WikiPage
 
 # Updated 03/08/2020
 
