@@ -1,9 +1,9 @@
 # chrome-ext
 
-Download this extension from the Chrome Web Store [here](https://chrome.google.com/webstore/detail/engagement-ring-wish-list/bpnjedkcplkdjomnaigikkdeckeblhjj).  
-Download this add-on for Firefox [here](https://addons.mozilla.org/en-US/firefox/addon/wishlist/).
+Download this extension from the Chrome Web Store [here](
 
-Support: https://www.estatediamondjewelry.com/how-use-engagement-ring-wishlist-extension
+
+Support: 
 
 ---
 
@@ -21,4 +21,3 @@ Note: You must reload the extension (click the ↻) after every time you update 
 
 ---
 
-#### Styling by [@jeff-gosselin](https://github.com/jeff-gosselin)
