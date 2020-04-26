@@ -1,5 +1,10 @@
 import Scraper from "./scraper.js";
 
+chrome.identity.getAuthToken({ 'interactive': true }, function(token) {
+
+});
+
+
 chrome.tabs.executeScript(
   {
     code: `[window.location.href, document.all[0].outerHTML]`

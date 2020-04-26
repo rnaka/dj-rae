@@ -1,12 +1,29 @@
 {
   "manifest_version": 2,
+  
   "name": "Crave Wish List",
+  "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDLOGW2Hoztw8m2z6SmCjm7y4Oe2o6aRqO+niYKCXhZab572by7acqFIFF0On3e3a967SwNijsTx2n+7Mt3KqWzEKtnwUZqzHYSsdZZK64vWIHIduawP0EICWRMf2RGIBEdDC6I1zErtcDiSrJWeRlnb0DHWXDXlt1YseM7RiON9wIDAQAB",
   "version": "1.0.3",
   "description": "Crave Wishlist",
-  "permissions": ["storage", "contextMenus", "activeTab"],
+  
+  "permissions": [
+    "storage", 
+    "contextMenus", 
+    "activeTab",
+    "identity"
+    ],
+  
   "browser_action": {
     "default_icon": "icons/icon.png",
     "default_popup": "popup.html"
+  },
+  
+  "oauth2": {
+    "client_id": "419479961013-pkkjrhdvsboqrodpq4nddr94v80kvg2u.apps.googleusercontent.com",
+    "scopes": [
+      "https://www.googleapis.com/auth/drive"
+    ]
+    // To get pass "App isn't Verified" warning, click "Advanced", then click on "Go to Crave (unsafe)
   },
   
   "background": {
