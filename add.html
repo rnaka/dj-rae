@@ -1,15 +1,44 @@
 <!DOCTYPE html>
-    <html>
+<html>
 
-    <head>
-      <title>Crave</title>
-      <script>
+<head>
+  <title>Crave</title>
+  <script src="test.js">
+
+    (function setup() {
+      "use strict";
+
+      var nameElem = document.getElementById("name");
+      var priceElem = document.getElementById("price");
+      var websiteElem = document.getElementById("website");
+      var tableElem = document.getElementById("table");
+      document.getElementById("display").addEventListener("click", function () {
+        var newRow = tableElem.insertRow(-1);
+        var newCell = newRow.insertCell(0);
+        var newText = document.createTextNode(nameElem.value);
+        newCell.appendChild(newText);
+        newCell = newRow.insertCell(1);
+        newText  = document.createTextNode(priceElem.value);
+        newCell.appendChild(newText);
+        newCell = newRow.insertCell(2);
+        newText  = document.createTextNode(websiteElem.value);
+        newCell.appendChild(newText);
 
 
-      </script>
-      <meta name="description" content="This is the description">
-      <link rel="stylesheet" href="style.css" />
-    </head>
+        nameElem.value = "";
+        priceElem.value = "";
+        websiteElem.value = "";
+        description.value="";
+        tableElem.value = "";
+      });
+    })();
+
+
+
+  </script>
+  <meta name="description" content="This is the description">
+  <link rel="stylesheet" href="style.css" />
+</head>
 
 <body>
 <header class="main-header">
@@ -17,24 +46,35 @@
     <ul>
       <li><a href="popup.html">HOME</a></li>
       <li><a href="about.html">ABOUT</a></li>
-      <li><a href="add.html">ADD</a></li>
-      <li><a href="view.html">VIEW</a></li>
+      <li><a href="add.html">ADD/VIEW</a></li>
     </ul>
   </nav>
   <h1 class="extension-name extension-name-large">Crave</h1>
 </header>
 <section class="content-section container">
+  <h2 class="section-header">My Wishlist</h2>
+  <div class="container">
 
-  <h2 class="section-header">Add Item</h2>
+    Item name: <br>
+    <input type="text" id="name" style="width:250px;"/><br>
+    Price: <br>
+    <input type="text" id ="price" style="width:250px;"/> <br>
+    Website: <br>
+    <input type="text" id="website" style="width:250px;" /> <br><br>
+    <input type="button" id ="display" value="Display" /><br>
 
-  <form name="myForm" action="confirmAdd.html" method="post">
-    Name: <input type="text" name="name"><br><br>
-    Website: <input type="text" name="url"><br><br>
-    Description: <textarea name="description" style="width:250px; height:200px;">(optional)</textarea><br><br>
-    <input type="submit" value="Submit"><br><br>
-  </form>
+    <table id= "table" border="1">
+      <tr>
+        <br><br>
+        <th style="width:100px">Name</th>
+        <th style="width:100px">Price</th>
+        <th style="width:300px">Website</th>
+      </tr>
+    </table>
+    <br>
+    <br>
 
+  </div>
 </section>
 </body>
 </html>
-
