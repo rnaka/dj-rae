@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="Description" content=" Crave Wish List" />
+    <link rel="stylesheet" href="css/collection.css" />
+    <link rel="stylesheet" type="text/css" href="css/animations.css" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <title>Crave Wish List</title>
+  </head>
+  <body>
+    <nav>
+      <div id="name" class="invisible">
+        <p></p>
+        <img id="editName" src="img/edit-icon.png" />
+      </div>
+
+      <div id="nav__search-container" class="invisible">
+        <div class="nav__search-icon">
+          <img src="img/magnify_glass.svg" alt="search" />
+        </div>
+        <label for="search" class="invisible">Search</label>
+        <input type="text" id="search" />
+      </div>
+    </nav>
+    <div id="logo">
+      <img src="icons/icon.png" alt=" Wish List Logo" />
+    </div>
+
+    <div class="sort-bar invisible">
+      <div id="sort">
+        <label for="sort-by" class="sort-title">Sort by:</label>
+        <select id="sort-by">
+          <option value="date-first">Date Added (first to last)</option>
+          <option value="date-last">Date Added (last to first)</option>
+          <option value="price-low">Price: Low to High</option>
+          <option value="price-high">Price: High to Low</option>
+          <option value="title">Title, Alphabetically</option>
+        </select>
+      </div>
+
+      <div class="items-container invisible">
+        <p id="total" class="item-amt"></p>
+        <div class="email">
+          <button id="emailButton" class="clear">Email List</button>
+        </div>
+      </div>
+    </div>
+    <div id="snackbar"></div>
+    <br />
+
+    <ul id="ringsList"></ul>
+
+
+    <footer>
+      <a
+        rel="noreferrer"
+        target="_blank"
+        href="/howToUse.html"
+        >How To Use</a
+      >&nbsp;|&nbsp;<a
+        rel="noreferrer"
+        target="_blank"
+        href=""
+        >Feedback</a
+      >
+      <span class="right">&copy; 2020 Crave</span>
+    </footer>
+
+    <!-- Edit Modal -->
+    <div id="edit-modal" class="modal">
+      <!-- Modal content -->
+      <div class="modal-content">
+        <span id="closeEditModal" class="close">&times;</span>
+        <form id="edit-form">
+          <img src="" id="edit-display-image" />
+          <button id="resetFields" class="center-button normal-padding">
+            Reset fields
+          </button>
+          <div id="spinner" class="spinner invisible">
+            <div class="bounce1"></div>
+            <div class="bounce2"></div>
+            <div class="bounce3"></div>
+          </div>
+          <p>
+            <label for="url-edit">URL</label>
+            <input id="url-edit" name="url" type="text" disabled />
+          </p>
+          <p>
+            <label for="title-edit">Title</label>
+            <textarea id="title-edit" name="title"></textarea>
+          </p>
+          <p>
+            <label for="image-edit">Image</label>
+            <input
+              id="image-edit"
+              name="image"
+              type="text"
+              placeholder="enter image URL"
+            />
+          </p>
+          <p>
+            <label for="description-edit">Description</label>
+            <textarea
+              id="description-edit"
+              name="description"
+              maxlength="400"
+              placeholder="max 400 characters"
+            ></textarea>
+          </p>
+          <p>
+            <label for="price-edit">Price</label>
+            <input
+              id="price-edit"
+              name="price"
+              type="number"
+              step="any"
+              min="0"
+            />
+          </p>
+          <p>
+            <label for="notes-edit">Notes</label>
+            <textarea id="notes-edit" name="notes"></textarea>
+          </p>
+          <button id="submit-edit" class="center-button clear">Submit</button>
+        </form>
+      </div>
+    </div>
+    <!-- Email Modal -->
+    <div id="email-modal" class="modal">
+      <!-- Modal content -->
+      <div class="modal-content">
+        <span id="closeEmailModal" class="close">&times;</span>
+        <h2>email my list</h2>
+        <form id="email-form">
+          <label for="from">From</label>
+          <input id="from" type="text" name="from" placeholder="your name" />
+          <label for="to">To</label>
+          <input
+            id="to"
+            type="text"
+            name="to"
+            placeholder="recipient's name"
+            required
+          />
+          <label for="email">Email</label>
+          <input
+            id="email"
+            type="email"
+            name="email"
+            placeholder="recipient's email"
+            required
+          />
+          <!-- <textarea
+            name="message"
+            rows="8"
+            cols="80"
+            placeholder="Message here"
+          ></textarea> -->
+          <br />
+          <br />
+          <button id="select-all" class="normal-padding">Select All</button>
+          <button id="select-none" class="normal-padding">Select None</button>
+          <div id="select-rings-email"></div>
+          <input
+            id="sendButton"
+            type="submit"
+            class="makebutton center-button normal-padding"
+            value="Send"
+          />
+          <div class="loader invisible"></div>
+        </form>
+      </div>
+    </div>
+    <!-- Edit List Name Modal -->
+    <div id="list-name-modal" class="modal">
+      <!-- Modal content -->
+      <div class="modal-content">
+        <span id="closeListNameModal" class="close">&times;</span>
+        <form id="list-name-form">
+          <br />
+          <p>
+            <label for="list-name-edit"
+              >Choose a new name for your Wish List:</label
+            >
+          </p>
+          <div>
+            <input
+              type="text"
+              id="list-name-edit"
+              name="list-name"
+              min="5"
+            /><span>'s Wish List</span>
+          </div>
+          <input
+            type="submit"
+            id="submit-list-name"
+            class="center-button clear"
+          />
+        </form>
+      </div>
+    </div>
+    <script type="module" src="scraper.js"></script>
+    <script type="module" src="collection.js"></script>
+  </body>
+</html>

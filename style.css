@@ -1,199 +1,338 @@
-@import url('https://fonts.googleapis.com/css?family=Raleway:300,400,700');
-
-@font-face {
-    font-family: "Booter - Zero Zero";
-    src: url("Fonts/Booter - Zero Zero.woff") format("woff"),
-         url("Fonts/Booter - Zero Zero.woff2") format("woff2");
-    font-weight: normal;
-    font-style: normal;
+h1 {
+  display: inline;
 }
 
-* {
-    box-sizing: border-box;
-    font-family: Raleway;
-    color: #777;
+#ringsList {
+  min-height: 70vh;
+  margin-bottom: 40px;
+  padding-bottom: 150px;
+  border-bottom: 1px solid #68828c;
 }
 
-html, body {
-    margin: 0;
-    padding: 0;
-    min-height: 400px;
+#logo img {
+  margin: 0 auto;
+  display: block;
+  width: 15%;
 }
 
-.nav ul {
-    margin: 0;
+#name {
+  /* max-width: 40%; */
+  display: inline-block;
+  padding-bottom: 5px;
 }
 
-.nav li {
-    display: inline;
+#name p {
+  display: inline;
 }
 
-.nav a {
-    display: inline-block;
-    padding: .5em;
-    color: white;
-    text-decoration: none;
+#editName {
+  width: 1.35em;
+  /* display: inline; */
+  padding-left: 6px;
+  filter: brightness(0) invert(0.65);
 }
 
-.main-nav {
-    text-align: center;
-    font-size: 1.1em;
-    font-weight: lighter;
-    border-bottom: 1px solid rgba(255, 255, 255, .3);
+#editName:hover {
+  filter: brightness(0) invert(0);
 }
 
-.main-nav li {
-    padding: .2pc;
+#list-name-edit {
+  width: 20%;
+  font-size: 1em;
 }
 
-.nav a:hover {
-    background-color: rgba(255, 255, 255, .3)
+#list-name-form div {
+  text-align: center;
 }
 
-.main-header {
-    background-color: rgba(0, 0, 0, .6);
-    background-image: url("Images/Header Background.jpg");
-    background-blend-mode: multiply;
-    background-size: cover;
-    padding-bottom: 30px;
+#promoted {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 0.25fr));
+  grid-gap: 1.2rem;
+  margin: 0 auto;
+  width: 80vw;
 }
 
-.extension-name {
-    text-align: center;
-    margin: 0;
-    font-size: 4em;
-    font-family: "Booter - Zero Zero";
-    font-weight: normal;
-    color: white;
+#promoted .card-img {
+  padding: 0px;
 }
 
-.extension-name-large {
-    font-size: 8em;
+#promoted .card-title {
+  padding-bottom: 0px;
 }
 
-.content-section {
-    margin: 1em;
+#promoted .card-cost {
+  border-top: none;
 }
 
-.container {
-    max-width: 900px;
-    margin: 0 auto;
-    padding: 0 1.5em;
-}
-.section-header {
-    font-weight: normal;
-    color: #333;
-    text-align: center;
-    font-size: 2.5em;
+#promoted .card-desc p {
+  padding-top: 30px;
+  padding-bottom: 0;
 }
 
-.about-band-image {
-    float: left;
-    height: 200px;
-    width: 200px;
-    margin: 15px;
-    border-radius: 50%;
+.invisible {
+  display: none !important;
 }
 
-.main-footer {
-    background-color: #56CCF2;
-    color: white;
-    padding: .25em 0;
+.email {
+  float: right;
+  margin: auto 0;
 }
 
-.main-footer-container {
-    display: flex;
-    align-items: center;
+.email-box {
+  display: inline;
 }
 
-.main-footer-container ul {
-    flex-grow: 1;
-    text-align: end;
+#emailButton {
+  display: block;
 }
 
-.footer-nav li {
-    padding: 0 .5em;
+#total {
+  font-style: italic;
+  font-size: 18px;
+  /* text-align: center; */
+  padding-left: 15px;
 }
 
-.footer-nav img {
-    width: 30px;
-    height: 30px;
+.makebutton {
+  -webkit-appearance: button;
+  -moz-appearance: button;
+  appearance: button;
+
+  text-decoration: none;
+  color: initial;
+  width: 42px;
 }
 
-.btn {
-    text-align: center;
-    vertical-align: middle;
-    padding: .67em .67em;
-    cursor: pointer;
+.center {
+  text-align: center;
 }
 
-.btn-header {
-    margin: .5em 15% 2em 15%;
-    color: white;
-    border: 2px solid #2D9CDB;
-    background-color: lightgrey;
-    border-radius: 0;
-    font-size: 1.5em;
-    font-weight: lighter;
-    padding-left: 2em;
-    padding-right: 2em;
+#choose-name {
+  left: 50%;
+  top: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  font-size: 24px;
+  font-family: Helvetica;
 }
 
-.btn-header:hover {
-    background-color: rgba(255, 255, 255, .3);
+#choose-name div.center {
+  margin-top: 15px;
 }
 
-
-.btn-primary {
-    color: white;
-    background-color: #56CCF2;
-    border: none;
-    border-radius: .3em;
-    font-weight: bold;
+#list-name {
+  font-size: 20px;
+  width: 40%;
+  height: 35px;
 }
 
-.btn-primary:hover {
-    background-color: #2D9CDB;
+#choose-name div.center span {
+  font-size: 20px;
 }
 
-.retailer-row {
-    border-bottom: 1px solid black;
-    padding-bottom: 1em;
-    margin-bottom: 1em;
+#name-button {
+  vertical-align: middle;
+  width: 15%;
+  height: 34px;
+  background-color: #4caf50;
+  border-radius: 9px;
+  transform: translateY(-1px);
 }
 
-.retailer-row:last-child {
-    border: none;
+#name-button:hover {
+  background-color: green;
 }
 
-.retailer-item {
-    display: inline-block;
-    padding-right: .5em;
+#empty-list {
+  left: 50%;
+  top: 40%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  font-size: 24px;
+  font-family: Helvetica;
+  color: grey;
 }
 
-.retailer-category {
-    width: 42%;
-    font-weight: bold;
+#empty-list a {
+  text-decoration: none;
+  /* color: grey; */
+  color: blue;
 }
 
-.retailer-brand {
-    width: 42%;
+.empty-img1 {
+  height: 35%;
+  left: 30%;
+  top: 70%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  border: 1px solid black;
 }
 
-.retailer-btn {
-    max-width: 19%;
+.empty-img2 {
+  height: 35%;
+  object-fit: contain;
+  left: 70%;
+  top: 70%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  border: 1px solid black;
 }
 
-.flex-container {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  justify-content: space-between;
-  align-content: space-around;
+.normal-padding {
+  padding: 1px 7px 2px;
 }
 
+.overlay-link {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
 
-body {
-  width:300px;
-  height:400px;
+.edit {
+  /* margin: 25px auto; */
+  z-index: 3;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  margin: 9px 10px;
+  padding: 0 4px;
+  color: #fff;
+  background-color: #b8b8b8;
+  height: 20px;
+  width: 50px;
+}
+
+.edit-icon {
+  filter: brightness(0) invert(1); /* make white */
+  width: 13px;
+  margin-right: 6px;
+}
+
+#edit-modal input,
+textarea {
+  width: 100%;
+  font-size: 1em;
+}
+
+#edit-display-image {
+  width: 25%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.center-button {
+  margin: 10px auto 0;
+  display: block;
+}
+
+footer {
+  width: 80vw;
+  /* margin-left: 3%; */
+  margin: 25px auto;
+}
+
+span.right {
+  float: right;
+}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 4; /* Sit on top */
+  padding-top: 5%; /* Location of the box */
+  padding-bottom: 5%;
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0, 0, 0); /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.4); /* Black w/ opacity */
+  position: fixed;
+}
+
+/* Modal Content */
+.modal-content {
+  background-color: #fefefe;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 75%;
+}
+
+.modal-content p {
+  padding-top: 10px;
+}
+
+.modal-content label {
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+/* The Close Button */
+.close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.modal-content label.unbold {
+  font-weight: normal;
+}
+
+#select-rings-email {
+  display: grid;
+  grid-template-columns: 2% 18% 80%;
+  grid-auto-rows: 100px;
+  padding-top: 25px;
+}
+
+#select-rings-email input[type="checkbox"] {
+  grid-column-start: 1;
+  margin: auto;
+}
+
+#select-rings-email img {
+  grid-column-start: 2;
+  margin: auto;
+}
+
+#select-rings-email label {
+  grid-column-start: 3;
+  margin: auto 0;
+  display: grid;
+  grid-template-columns: 68% 18% 10%;
+  grid-column-gap: 2%;
+}
+
+#select-rings-email label span.email-notes {
+  grid-column-start: 2;
+  margin: auto;
+}
+
+#select-rings-email label div.price-container {
+  grid-column-start: 3;
+  margin: auto 0;
+}
+
+.email-ring-img {
+  vertical-align: middle;
+  padding: 5px;
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
 }

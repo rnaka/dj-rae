@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css?family=Nunito+Sans:200,300,400,700&display=swap");
+
+body {
+  width: 175px;
+  /* width: 100%; */
+  font-family: "Nunito Sans", sans-serif;
+}
+.dropdown {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  display: block;
+  text-decoration: none;
+  font-size: 14px;
+  text-align: center;
+  /* border-radius: 7.5px; */
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.header {
+  height: 25%;
+}
+
+.logo {
+  display: block;
+  margin: auto;
+}
+
+#name {
+  text-align: center;
+}
+
+#add {
+  background-color: #4caf50; /* Green */
+  font-size: 18px;
+}
+
+#add:hover {
+  background-color: green;
+}

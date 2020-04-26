@@ -1,151 +1,24 @@
-# Crave
-A chrome extension to allow people to make a wishlist of online products 
+# chrome-ext
 
-# Updated 04/12/2020
+Download this extension from the Chrome Web Store [here](https://chrome.google.com/webstore/detail/engagement-ring-wish-list/bpnjedkcplkdjomnaigikkdeckeblhjj).  
+Download this add-on for Firefox [here](https://addons.mozilla.org/en-US/firefox/addon/wishlist/).
 
-Progress
-======
-{What is new in the project since the last README submitted)
-1. The Functionality of all the different button
-2. The About Page Finished
-3. Showing the Wishlist
-4. Adding Items Page
+Support: https://www.estatediamondjewelry.com/how-use-engagement-ring-wishlist-extension
 
-Link
-======
-https://github.com/rnaka/dj-rae/
+---
 
-Pending
-======
-1. Adding Items to the Wishlist
+To install from GitHub:
 
-Roles and Responsibilities
-======
+- clone repo
+- open `chrome://extensions/` in Chrome
+- turn on Developer Mode in the top right-hand corner
+- click `Load unpacked`
+- select the repo directory
 
-Jiayu
-------
-Completed: 
-Functionality of the different buttons
+Your extension should show up and it has been successfully installed.
 
-Current:
+Note: You must reload the extension (click the ↻) after every time you update the code.
 
-Next:
-Final Report
+---
 
-Derick
-------
-Completed: 
-Further Styling of the extension
-Fuzz Testing
-
-Current:
-
-Next:
-Final Report
-
-Raena
-------
-Completed: 
-Combined Styling and Functionality
-About Page
-Fuzz Testing
-
-Current:
-
-
-Next:
-WikiPage
-
-# Updated 03/08/2020
-
-Progress
-======
-{What is new in the project since the last README submitted)
-1. Completed the styling of the extension
-2. Completed OAuth setup to allow users to login to the extension with their Google Accounts
-
-Link
-======
-https://github.com/rnaka/dj-rae/
-
-Pending
-======
-1. The "About" Page
-2. Functionality of the different buttons
-  a. Create Wishlist
-  b. Add to Wishlist
-  c. Delete Wishlist
-  d. Delete item from Wishlist
-3. Showing the Wishlist on the application
-4. Sharing the List to other users
-5. Verifying the application with Google
-
-
-Roles and Responsibilities
-======
-
-Jiayu
-------
-Completed: 
-
-Current:
-
-Next:
-
-Derick
-------
-Completed: 
-Styling of the extension
-
-Current:
-
-Next:
-
-Raena
-------
-Completed: 
-OAuth Setup to Login 
-
-Current:
-Verifying app security
-
-Next:
-
-
-# Updated 02/23/2020
-
-Completed
-======
-
-Jiayu
-------
-
-
-Derick
-------
-
-
-Raena
-------
-1. Initial setup of the extension 
-2. Crave Logo
-
-
-Pending
-======
-
-Jiayu
-------
-Implement logic when a user clicks the page
-Connect selected store API's to detect products on page and add to wishlist
-Browser Actions
-General Design 
-
-Derick
-------
-Styling of the page
-Browser Actions
-
-Raena
-------
-Sign-in screen
+#### Styling by [@jeff-gosselin](https://github.com/jeff-gosselin)
