@@ -1,4 +1,4 @@
-# chrome-ext
+# Crave chrome-ext
 
 Download this extension from the Chrome Web Store [here](
 
