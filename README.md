@@ -3,6 +3,7 @@
 A chrome extension to allow people to make a wishlist of online products 
 
 Code Link: https://github.com/rnaka/dj-rae/ 
+
 Wikipage Link: https://github.com/rnaka/dj-rae/wiki 
 
 ---
