@@ -20,10 +20,15 @@ N/A
 ### JIAYU
 
 COMPLETED:
+
 Functionality of buttons
+
 Implement logic when user clicks on page
+
 Connect selected store API to detect products on page
+
 Add item to wishlist
+
 Email wishlist
 
 CURRENT:
