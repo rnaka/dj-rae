@@ -39,8 +39,11 @@ PENDING:
 ### DERICK
 
 COMPLETED:
+
 ~ Fuzz Testing
+
 ~ All styling completed
+
 ~ Basic Styling
 
 CURENT:
@@ -50,12 +53,19 @@ PENDING:
 ### RAENA
 
 COMPLETED:
+
 ~ Wikipage
+
 ~ Combined functionality and styling
+
 ~ About Page
+
 ~ Fuzz Testing
+
 ~ OAuth Setup to Login
+
 ~ Initial setup of the extension
+
 ~ Crave Logo
 
 CURRENT:
@@ -82,10 +92,13 @@ PENDING:
 ### JIAYU
 
 COMPLETED:
+
 ~ Functionality of buttons
 
 CURRENT:
+
 ~ Functionality and Browser Actions
+
 (implement logic when user clicks on the page, connect selected store API to detect products on page, add to wishlist)
 
 PENDING:
@@ -93,8 +106,11 @@ PENDING:
 ### DERICK
 
 COMPLETED:
+
 ~ Fuzz Testing
+
 ~ All styling completed
+
 ~ Basic Styling
 
 CURENT:
@@ -104,16 +120,23 @@ PENDING:
 ### RAENA
 
 COMPLETED:
+
 ~ About Page
+
 ~ Fuzz Testing
+
 ~ OAuth Setup to Login
+
 ~ Initial setup of the extension
+
 ~ Crave Logo
 
 CURRENT:
+
 ~ Combined functionality and styling
 
 PENDING:
+
 ~ Wikipage
 
 ---
@@ -143,25 +166,33 @@ d. Delete item from Wishlist
 COMPLETED:
 
 CURRENT:
+
 ~ Functionality and Browser Actions
+
 (implement logic when user clicks on the page, connect selected store API to detect products on page, add to wishlist)
 
 ### DERICK
 
 COMPLETED:
+
 ~ Basic Styling
 
 CURENT:
+
 ~ Further Styling
 
 ### RAENA
 
 COMPLETED:
+
 ~ OAuth Setup to Login
+
 ~ Initial setup of the extension
+
 ~ Crave Logo
 
 CURRENT:
+
 ~ Verifying app security
 
 ---
@@ -174,7 +205,9 @@ CURRENT:
 COMPLETED:
 
 CURRENT:
+
 ~ Functionality and Browser Actions
+
 (implement logic when user clicks on the page, connect selected store API to detect products on page, add to wishlist)
 
 ### DERICK
@@ -182,12 +215,15 @@ CURRENT:
 COMPLETED:
 
 CURENT:
+
 ~ Application Styling
 
 ### RAENA
 
 COMPLETED:
+
 ~Initial setup of the extension
+
 ~Crave Logo
 
 CURRENT:
