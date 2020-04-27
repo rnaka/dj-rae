@@ -18,7 +18,7 @@ Dark Green: #4D6873
 
 body {
   font-family: "Nunito Sans", sans-serif;
-  background-color: #f2f0eb;
+  background-color: #ebeef2;
 }
 
 /***** START: Navigation Bar *****/
@@ -115,7 +115,7 @@ nav {
   align-items: center;
   padding: 8px;
   margin-top: -3px;
-  background-color: #fa8379;
+  background-color: #2D9CDB; /*79a6fa*/
   border: none;
   border-radius: 2px;
   font-size: 0.8rem;
@@ -128,7 +128,7 @@ nav {
 .clear:hover,
 .card-remove:hover {
   cursor: pointer;
-  background-color: #fe6656;
+  background-color: rgb(31, 114, 161);
 }
 
 .clear:active,

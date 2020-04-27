@@ -135,13 +135,13 @@ h1 {
   vertical-align: middle;
   width: 15%;
   height: 34px;
-  background-color: #4caf50;
+  background-color: #2D9CDB;
   border-radius: 9px;
   transform: translateY(-1px);
 }
 
 #name-button:hover {
-  background-color: green;
+  background-color: rgb(31, 114, 161);
 }
 
 #empty-list {
