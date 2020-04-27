@@ -21,15 +21,16 @@ N/A
 
 COMPLETED:
 
-Functionality of buttons
+~ Functionality of buttons
 
-Implement logic when user clicks on page
+~ Implement logic when user clicks on page
 
-Connect selected store API to detect products on page
+~ Connect selected store API to detect products on page
 
-Add item to wishlist
+~ Add item to wishlist
 
-Email wishlist
+~ Email wishlist
+
 
 CURRENT:
 
@@ -190,6 +191,8 @@ COMPLETED:
 ~Crave Logo
 
 CURRENT:
+
 ~Login/Authentication
+
 
 PENDING:
